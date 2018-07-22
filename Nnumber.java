@@ -1,13 +1,18 @@
 import java.util.Scanner;
-public class Nnumber {
+public class Guvi {
 	public static void main(String[] args) {
-		int a;
-		String s;
+		int a,sum=0;
 		Scanner in=new Scanner(System.in);
 		a=in.nextInt();
-		s=in.next();
-		for(int i=1;i<=a;i++){
-			System.out.println(s);
+		if(a>=0){
+		for(int i=0;i<=a;i++){
+			sum=sum+i;
+		}
+		System.out.println(sum);
+	    }
+		else{
+			System.out.println("invalid no");
 		}
 	}
 }
+

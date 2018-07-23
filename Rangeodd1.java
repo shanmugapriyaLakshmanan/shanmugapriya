@@ -8,9 +8,12 @@ public class Rangeodd {
       if(Q>0 && Q<=100000){
     	  for(int i=N;i<Q;i++){
     		  if(i%2!=0){
-    			  System.out.println(i);
+    			  System.out.print(i);
     		  }
     	  }
       }
+    else{
+      System.out.println("invalid no");
+  }
   }
 }

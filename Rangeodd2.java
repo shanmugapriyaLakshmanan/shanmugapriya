@@ -1,5 +1,5 @@
 import java.util.*;
-public class Rangeodd {
+public class Rangeodd2 {
   public static void main(String[] argv) {
      int N,Q;
       Scanner in=new Scanner(System.in);

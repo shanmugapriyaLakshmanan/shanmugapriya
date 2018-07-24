@@ -5,6 +5,7 @@ public class Amstrong1 {
 	  int N,a=0,b,d=0,x,count=0,e=0;
       Scanner in=new Scanner(System.in);
       N=in.nextInt();
+	  if(N>=0 && N<=100000){
          a=N;
      while(a!=0){
     	 a=a/10;
@@ -23,6 +24,10 @@ public class Amstrong1 {
      else{
     	 System.out.println("no");
      }
+	  }
+	  else{
+		  System.out.println("invalid no");
+	  }
       }
   
 }

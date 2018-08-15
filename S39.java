@@ -3,12 +3,11 @@ import java.util.Scanner;
 public class S39{
 	public static void main(String[] args) {
      Scanner in=new Scanner(System.in);
-     int a=in.nextInt();
-     int b[]=new int[a];
-     for(int i=0;i<a;i++){
+     int b[]=new int[10];
+     for(int i=0;i<10;i++){
      b[i]=in.nextInt();
      }
      Arrays.sort(b);
-     System.out.println(b[a-1]);
+     System.out.println(b[9]);
 	}
 }
